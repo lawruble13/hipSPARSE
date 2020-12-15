@@ -51,7 +51,7 @@ diag bsrsv2_diag_range[]    = {HIPSPARSE_DIAG_TYPE_NON_UNIT};
 fill bsrsv2_fill_range[]    = {HIPSPARSE_FILL_MODE_LOWER, HIPSPARSE_FILL_MODE_UPPER};
 
 std::string bsrsv2_bin[]
-    = {"mc2depi.bin", "scircuit.bin", "nos2.bin", "nos4.bin", "nos5.bin", "nos6.bin"};
+    = {"scircuit.bin", "nos2.bin", "nos4.bin", "nos5.bin", "nos6.bin"};
 
 class parameterized_bsrsv2 : public testing::TestWithParam<bsrsv2_tuple>
 {
